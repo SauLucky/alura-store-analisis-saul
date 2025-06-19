@@ -1,42 +1,63 @@
-# 🛍️ Análisis Alura Store
+# 📊 Desafío de Ciencia de Datos: Alura Store
 
-Este proyecto tiene como objetivo analizar el rendimiento de ventas de las 4 tiendas de la cadena **Alura Store** con el fin de recomendar cuál de ellas debería vender el Sr. Juan para iniciar un nuevo emprendimiento.
+Este proyecto forma parte del desafío práctico de la formación en Ciencia de Datos de **Alura LATAM**, donde el objetivo es analizar los datos de ventas y rendimiento de cuatro tiendas de la cadena **Alura Store** para ayudar al Sr. Juan a decidir cuál de ellas debería vender para iniciar un nuevo emprendimiento.
 
-## 📊 Objetivos del análisis
+---
 
-- Calcular la **facturación total** por tienda.
-- Identificar las **categorías más populares**.
-- Analizar el **promedio de evaluación** de los clientes.
-- Detectar **productos más y menos vendidos**.
-- Evaluar el **costo promedio de envío**.
+## 🎯 Objetivo del proyecto
+
+- Analizar métricas clave como:
+  - 💰 Facturación total
+  - 📦 Categorías más populares
+  - ⭐ Calificación promedio de clientes
+  - 🛍️ Productos más y menos vendidos
+  - 🚚 Costo promedio de envío
+
+- Crear visualizaciones para presentar insights.
+- Emitir una recomendación basada en datos reales.
+- Practicar habilidades con Pandas, Matplotlib y análisis de datos.
+
+---
 
 ## 📁 Estructura del proyecto
 
-alura-store-analisis/
-├── notebooks/
-│ └── alura_store_analysis.ipynb
-├── images/
-│ └── [gráficos exportados]
-├── data/ (no contiene archivos por política del desafío)
-├── README.md
-└── requirements.txt (opcional)
+AluraStoreProject/
+├── AluraStoreLatam.ipynb # Notebook principal del análisis
+├── informe_alura_store.md # Informe detallado con insights y recomendación
+├── README.md # Este archivo
+├── /graficos # Carpeta para exportar gráficos (.png)
 
 
 
-## 🧪 Instrucciones para ejecución
+---
 
-1. Abrir el archivo `alura_store_analysis.ipynb` con Google Colab.
-2. Ejecutar todas las celdas.
-3. Asegurarse de visualizar los gráficos generados y las conclusiones.
+## 📈 Ejemplos de visualizaciones
 
-> ⚠️ **Nota**: No es necesario importar datasets manualmente; están integrados en el código base.
+- Gráfico de barras: Facturación total por tienda
+- Gráfico circular: Categorías más vendidas
+- Gráfico de líneas: Calificación promedio
+- Gráfico de dispersión: Precio vs Costo de envío
+- Gráfico de barras horizontales: Productos menos vendidos
 
-## 📈 Ejemplo de insights (a completar más adelante)
+---
 
-- La tienda 2 tiene la mayor facturación, pero también los mayores costos de envío.
-- La categoría más popular es **Tecnología** en todas las tiendas.
-- El producto menos vendido es **X**, y podría estar afectando la rentabilidad.
+## 🧠 Recomendación Final
 
-## 👨‍💻 Autor
+> **Vender la Tienda 1**: Aunque es la que más factura, tiene la peor calificación de los clientes, los costos de envío más altos y productos con menor rotación. Las demás tiendas presentan un rendimiento más equilibrado y sostenible.
 
-- [SAUL EVER SANCHEZ MENDOZA](https://github.com/SauLucky)
+---
+
+## ▶️ ¿Cómo ejecutar el análisis?
+
+1. Abre el archivo `AluraStoreLatam.ipynb` en Google Colab.
+2. Ejecuta las celdas en orden para cargar y analizar los datos.
+3. Asegúrate de tener conexión a internet (los datos se cargan desde GitHub).
+4. Observa los gráficos y lee los insights generados en el notebook y el informe.
+
+---
+
+📌 Desarrollado como parte del curso de **ONE | Oracle Next Education – Ciencia de Datos**.
+
+🚀 ¡Gracias por visitar este proyecto!
+
+
