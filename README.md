@@ -40,7 +40,7 @@ El objetivo final es emitir una **recomendación clara y sustentada** sobre cuá
 
 ### 🔢 Facturación Total por Tienda
 
- ![nombre](graficos/pareto.png)
+ ![nombre](Challenge%20Alura%20Store/graficos/pareto.png)
 - Tienda 1 lidera en ingresos con más de $1,150 millones.
 - Tienda 4 es la de menor facturación.
 
