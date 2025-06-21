@@ -1,63 +1,96 @@
-# 📊 Desafío de Ciencia de Datos: Alura Store
+# 🏪 Alura Store – Análisis de Tiendas y Recomendación Estratégica
 
-Este proyecto forma parte del desafío práctico de la formación en Ciencia de Datos de **Alura LATAM**, donde el objetivo es analizar los datos de ventas y rendimiento de cuatro tiendas de la cadena **Alura Store** para ayudar al Sr. Juan a decidir cuál de ellas debería vender para iniciar un nuevo emprendimiento.
-
----
-
-## 🎯 Objetivo del proyecto
-
-- Analizar métricas clave como:
-  - 💰 Facturación total
-  - 📦 Categorías más populares
-  - ⭐ Calificación promedio de clientes
-  - 🛍️ Productos más y menos vendidos
-  - 🚚 Costo promedio de envío
-
-- Crear visualizaciones para presentar insights.
-- Emitir una recomendación basada en datos reales.
-- Practicar habilidades con Pandas, Matplotlib y análisis de datos.
+Este proyecto corresponde al desafío de análisis de datos propuesto por Alura Latam, donde el objetivo es ayudar al Sr. Juan a decidir cuál de sus cuatro tiendas debería vender para iniciar un nuevo emprendimiento.
 
 ---
 
-## 📁 Estructura del proyecto
+## 🎯 Objetivo del Proyecto
 
-AluraStoreProject/
-├── AluraStoreLatam.ipynb # Notebook principal del análisis
-├── informe_alura_store.md # Informe detallado con insights y recomendación
-├── README.md # Este archivo
-├── /graficos # Carpeta para exportar gráficos (.png)
+Analizar el rendimiento de las cuatro tiendas de Alura Store con base en cinco indicadores clave:
 
+1. Facturación total 💰  
+2. Categorías más populares de productos 🛍️  
+3. Calificación promedio de los clientes ⭐  
+4. Productos más y menos vendidos 📉📈  
+5. Costo promedio de envío 🚚
 
+El objetivo final es emitir una **recomendación clara y sustentada** sobre cuál tienda debe venderse.
 
 ---
 
-## 📈 Ejemplos de visualizaciones
+## 🧪 Herramientas Utilizadas
 
-- Gráfico de barras: Facturación total por tienda
-- Gráfico circular: Categorías más vendidas
-- Gráfico de líneas: Calificación promedio
-- Gráfico de dispersión: Precio vs Costo de envío
-- Gráfico de barras horizontales: Productos menos vendidos
+- Python 3
+- Google Colab
+- Pandas
+- Matplotlib
+- Git + GitHub
+
+---
+
+## 📂 Estructura del Proyecto
+
+- `AluraStoreLatam.ipynb`: Cuaderno de análisis principal con todo el código y visualizaciones.
+- `tienda_1.csv` a `tienda_4.csv`: Bases de datos individuales por tienda (cargadas desde URLs).
+- `README.md`: Documento con descripción general y hallazgos clave.
+
+---
+
+## 📊 Principales Visualizaciones
+
+### 🔢 Facturación Total por Tienda
+
+ ![nombre](pareto.png)
+- Tienda 1 lidera en ingresos con más de $1,150 millones.
+- Tienda 4 es la de menor facturación.
+
+### 🛍️ Categorías Más Vendidas
+
+Gráficos circulares individuales por tienda muestran las categorías más populares. Por ejemplo:
+
+- Tienda 1: Tecnología y Moda  
+- Tienda 2: Moda y Hogar  
+- Tienda 3: Electrónica  
+- Tienda 4: Libros y Ropa
+
+### 📈 Diagrama de Pareto
+
+Permite visualizar cómo Tienda 1, 2 y 3 concentran más del 77% de la facturación total, dejando a Tienda 4 con una participación marginal.
 
 ---
 
 ## 🧠 Recomendación Final
 
-> **Vender la Tienda 1**: Aunque es la que más factura, tiene la peor calificación de los clientes, los costos de envío más altos y productos con menor rotación. Las demás tiendas presentan un rendimiento más equilibrado y sostenible.
+### 📌 Justificación Detallada
+
+Aunque **Tienda 1 tiene la mayor facturación**, también presenta los siguientes problemas:
+
+- La **peor calificación de clientes** (3.98)
+- El **costo de envío más alto**
+- **Baja rotación** de productos clave como “Pandereta” u “Olla de presión”
+
+En contraste, otras tiendas tienen un mejor equilibrio entre rentabilidad, logística y experiencia del cliente.
+
+### ✅ Recomendación
+
+> Se recomienda al Sr. Juan **vender la Tienda 1**.  
+> A pesar de su alta facturación, los **costos logísticos**, la **baja satisfacción del cliente** y la **eficiencia en declive** podrían comprometer su sostenibilidad a largo plazo.  
+>
+> **Tienda 3** representa el mejor desempeño balanceado y Tienda 4, aunque tiene la facturación más baja, **tiene potencial de crecimiento**.
 
 ---
 
-## ▶️ ¿Cómo ejecutar el análisis?
+## 🧾 Cómo Ejecutar el Proyecto
 
-1. Abre el archivo `AluraStoreLatam.ipynb` en Google Colab.
-2. Ejecuta las celdas en orden para cargar y analizar los datos.
-3. Asegúrate de tener conexión a internet (los datos se cargan desde GitHub).
-4. Observa los gráficos y lee los insights generados en el notebook y el informe.
+1. Abre el notebook `AluraStoreLatam.ipynb` en Google Colab.
+2. Ejecuta las celdas en orden.
+3. Analiza los gráficos generados y sigue el razonamiento paso a paso.
+4. Puedes clonar este repositorio o trabajar directamente desde Colab con conexión a GitHub.
 
 ---
 
-📌 Desarrollado como parte del curso de **ONE | Oracle Next Education – Ciencia de Datos**.
+## ✉️ Contacto
 
-🚀 ¡Gracias por visitar este proyecto!
-
-
+Proyecto realizado como parte del desafío de Data Science – Alura Latam.  
+Desarrollado por: SAUL EVER SANCHEZ MENDOZA  
+GitHub: [[Sauluky](https://github.com/SauLucky)]  
